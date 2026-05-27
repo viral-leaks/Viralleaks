@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    installLink.href = '/base.apk';
+    installLink.href = '/Viralleaks/base.apk';
     setButtonState('Download', false);
 };
 
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             setButtonState('Preparing...', true);
             await postEvent('download-click');
-            window.location.href = '/base.apk';
+            window.location.href = '/Viralleaks/base.apk';
 
             window.setTimeout(() => {
                 setButtonState('Download', false);
